@@ -1,8 +1,7 @@
 ---
 layout: home
 title: Зачем вы здесь?
-metaDesc: Hylia is a lightweight Eleventy starter kit to help you to create your
-  own blog or personal website.
+metaDesc: Блог о современной Front-end разработке и всё, что с ней связано.
 postsHeading: Последние посты
 archiveButtonText: Все посты
 socialImage: ""
