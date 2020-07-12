@@ -1,6 +1,7 @@
 ---
-title: 'Thank you'
-permalink: '/thank-you/index.html'
+title: Спасибо
+permalink: /thank-you/index.html
 ---
-
-This is your thank you page where if someone fills in your contact form, they will be directed to. Make sure you add a nice message 🙂
+Я постараюсь ответить вам как можно скорее.\
+\
+З.Ы. Мне приходит нотификейшен на почту и, если я не ответил, то со мной что-то случилось. Но вы не беспокойтесь, моя жизнь ничего не стоит. 🙂
