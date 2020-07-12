@@ -1,17 +1,17 @@
 {
   "items": [
     {
-      "text": "Home",
+      "text": "Главная",
       "url": "/",
       "external": false
     },
     {
       "text": "GitHub",
-      "url": "https://github.com/hankchizljaw/hylia",
+      "url": "https://github.com/semioys",
       "external": true
     },
     {
-      "text": "Example Contact Page",
+      "text": "Обратная связь",
       "url": "/contact",
       "external": false
     }
