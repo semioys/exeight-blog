@@ -22,7 +22,7 @@ const elemToObserve = document.getElementById('your_elem_id');
 const prevClassState = elemToObserve.classList.contains('your_class');
 ```
 
-Далее, с помощью конструктора [`MutationObserver()`](https://developer.mozilla.org/ru/docs/Web/API/MutationObserver/MutationObserver), создадим новый обьект `MutationObserver`, который вызовет функцию обратного вызова при изменении в DOM.
+Далее, с помощью конструктора [MutationObserver()](https://developer.mozilla.org/ru/docs/Web/API/MutationObserver/MutationObserver), создадим новый обьект `MutationObserver`, который вызовет функцию обратного вызова при изменении в DOM.
 
 Обзёрвер вызывает данную функцию с двумя аргументами. Первым аргументом является массив объектов [MutationRecord](https://developer.mozilla.org/en-US/docs/Web/API/MutationRecord), вторым аргументом является экземпляр `MutationObserver.` С помощью метода массива [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) мы можем выполнить определённые инструкции для каждой мутации.
 
@@ -57,7 +57,7 @@ const observer = new MutationObserver(
 });
 ```
 
-Наконец, мы вызываем метод [`observe()`](https://developer.mozilla.org/ru/docs/Web/API/MutationObserver/observe), который подписывает экземпляр `MutationObserver` на получение уведомлений о манипуляциях с DOM-элементом
+Наконец, мы вызываем метод [observe()](https://developer.mozilla.org/ru/docs/Web/API/MutationObserver/observe), который подписывает экземпляр `MutationObserver` на получение уведомлений о манипуляциях с DOM-элементом
 
 ```javascript
 observer.observe(elemToObserve, {attributes: true});
