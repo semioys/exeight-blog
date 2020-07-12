@@ -3,5 +3,12 @@
     font-weight: 700;
     text-decoration: none;
     color: var(--color-text);
+    display: flex;
+    align-items: center;
+  }
+
+  &__site-logo {
+    max-width: 50px;
+    margin-right: 10px;
   }
 }
