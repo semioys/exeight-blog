@@ -57,8 +57,12 @@ const observer = new MutationObserver(
 });
 ```
 
-Наконец, мы вызываем метод [`observe()`](https://developer.mozilla.org/ru/docs/Web/API/MutationObserver/observe), который подписывает экземпляр `MutationObserver` на получение уведомлений о манипуляциях с DOM-элементом\
-\
+Наконец, мы вызываем метод [`observe()`](https://developer.mozilla.org/ru/docs/Web/API/MutationObserver/observe), который подписывает экземпляр `MutationObserver` на получение уведомлений о манипуляциях с DOM-элементом
+
+```javascript
+observer.observe(elemToObserve, {attributes: true});
+```
+
 Итоговый код:
 
 ```javascript
