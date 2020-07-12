@@ -1,11 +1,15 @@
 ---
 title: Как обнаружить изменения в классах DOM элементов с помощью MutationObserver
-date: 2020-07-12T13:42:35.726Z
+metaTitle: Как обнаружить изменения в классах DOM элементов с помощью MutationObserver
+metaDesc: MutationObserver — удобный инструмент на случай, если вы захотите
+  прослушать изменения, происходящие с элементом DOM
+socialImage: /images/2020-07-12_21-08.png
+date: 2020-07-12T18:08:10.710Z
 tags:
   - javascript
   - перевод
 ---
-**[MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)** - удобный инструмент на случай, если вы захотите прослушать изменения, происходящие с элементом [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). Если вы хотите написать логику, когда определенный класс добавляется или удаляется из  DOM элемента, фрагменты кода ниже будут полезны.
+**[MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)** — удобный инструмент на случай, если вы захотите прослушать изменения, происходящие с элементом [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). Если вы хотите написать логику, когда определенный класс добавляется или удаляется из  DOM элемента, фрагменты кода ниже будут полезны.
 
 Начните с захвата элемента, за изменениями класса которого вы хотите наблюдать.
 
@@ -78,8 +82,6 @@ const observer = new MutationObserver(
 });
 observer.observe(elemToObserve, {attributes: true});
 ```
-
-
 
 Больше статей на тему:
 
